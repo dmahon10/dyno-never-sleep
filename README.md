@@ -34,3 +34,6 @@ The ESP32 can be restarted by pressing the `EN` button on the Dev board.
 Your Heroku Dyno will be kept awake as long as your ESP32 has power and a wifi connection.
 
 There are, of course, better, less fun ways of doing this... like just paying $7, but until you have that kind of money, this will do.
+
+#### Another easy solution: Crontab
+`*/20 * * * * curl http://example.com >/dev/null 2>&1`

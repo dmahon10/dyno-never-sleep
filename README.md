@@ -35,5 +35,5 @@ Your Heroku Dyno will be kept awake as long as your ESP32 has power and a wifi c
 
 There are, of course, better, less fun ways of doing this... like just paying $7, but until you have that kind of money, this will do.
 
-#### Another easy solution: Crontab
+#### Another Easy Solution: Cron Job
 `*/20 * * * * curl http://example.com >/dev/null 2>&1`

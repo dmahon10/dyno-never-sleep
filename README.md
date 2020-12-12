@@ -30,3 +30,7 @@ You may need to hold the `BOOT` button on your ESP32 Dev Board for a few seconds
 After upload is complete click the `Serial Monitor` spy glass button in the top right on the IDE window to open the serial monitor. You should see the output from your board being printed.
 
 The ESP32 can be restarted by pressing the `EN` button on the Dev board.
+
+Your Heroku Dyno will be kept awake as long as your ESP32 has power and a wifi connection.
+
+They are, of course, better, less fun ways of doing this.

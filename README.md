@@ -17,7 +17,7 @@ Configure Arduino IDE for use with ESP32:
 1. Navigate to `Tools > Board > Boards Manager`
 1. Search for `ESP32` and install
 1. Navigate to `Tools > Port` and select `/dev/cu.SLAB_USBtoUART`
-  * If this port is not listed you can use `ioreg -p IOUSB -w0 | sed 's/[^o]*o //; s/@.*$//' | grep -v '^Root.*'` from Terminal to list all ports in use and find out what port your board is connected to. 
+  * If this port is not listed you can use `ioreg -p IOUSB -w0 | sed 's/[^o]*o //; s/@.*$//' | grep -v '^Root.*'` from Terminal to list all ports in use and find out which port your board is connected to. 
 
 Paste in the code from `main/main.ino` into the IDE .
 
